@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 3
    
    overview
+   alerts
    
 ..
 .. Indices and tables

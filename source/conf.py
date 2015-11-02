@@ -111,6 +111,10 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
 
+# -- Options for Sphinx  ----------------------------------------------
+rst_epilog = """
+.. |st| replace:: SynTraffic
+"""
 
 # -- Options for HTML output ----------------------------------------------
 

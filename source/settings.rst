@@ -13,12 +13,3 @@ About
 * **Public status** pages help you communicate with your customers and handle downtime gracefully.
 
 .. include:: engage.rst
-
-Why |ST|?
---------------------
-
-.. raw:: html
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5VLyU9wbBbI" frameborder="0" allowfullscreen></iframe>
-        <br>
-        <br>
