@@ -14,8 +14,6 @@ You can subscribe to notifications when your website is having issues. The subsc
 
 * Support Site: If this option is available, you can click on the support link available and get connected to their support site.
 
-.. include:: engage.rst
-
 Status Page
 -----------
 
@@ -48,3 +46,5 @@ The status page is divided into three sections
 **Latency Chart**: The middle section shows the average response time of the component in milliseconds. Hover over the chart to get the response time for the specific day. 
 
 **Details Panel**: The right most section is a (floating) details panel. This panel shows up when you hover over the calendar cells for the days that the website component had issues. The panel provides details about the availability number for the particular and any incident details as provided by the website owner.
+
+.. include:: engage.rst
