@@ -24,6 +24,6 @@ Manage your status page settings here:
 Public Monitors
 --------------
 
-Configure which of your monitors will be shown on the status page. You can do this by checking the appropriate monitors. Your clients will be able to see availability and response time data for the selected monitors.
+Configure which of your monitors will be shown on the status page. You can do this by checking the appropriate monitors and clicking on Save button. Your clients will be able to see availability and response time data for the selected monitors.
 
 .. include:: engage.rst
