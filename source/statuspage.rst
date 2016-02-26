@@ -35,6 +35,11 @@ The status page details section is divided into three sections:
   	<span class="pull-left" style="width: 87%;margin-left: 15px;margin-top: -12px;">We have no data for this day. This can happen if monitoring of the target website was not started/paused and hence we have no data for this day.</span>
   </p>
   <p class="pull-left" style="width: 100%;background: linear-gradient(to right, #F89406 45px, #fcfcfc 45px);padding: 10px;height: 44px;">
+  <span class="pull-left" style="width:12px;height:24px;background:#ec0111;">&nbsp;</span>
+  <span class="pull-left" style="width:12px;height:24px;background:#fff;margin-right:10px;">&nbsp;</span>
+  <span class="pull-left" style="width: 87%;margin-left: 15px;margin-top: -12px;">Issues were detected for this day. The severity of the issue is indicated by the length of the red bar.</span>
+  </p>
+  <p class="pull-left" style="width: 100%;background: linear-gradient(to right, #F89406 45px, #fcfcfc 45px);padding: 10px;height: 44px;">
   <span class="pull-left indicator" style="width:24px;height:24px;background: #ffbd62;margin-right:10px;">&nbsp;</span>
   <span class="pull-left" style="margin-left: 15px;">This is a future day and hence we have no data for this day.</span>
   </p>
