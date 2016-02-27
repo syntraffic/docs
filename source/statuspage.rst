@@ -24,28 +24,31 @@ The status page details section is divided into three sections:
 .. raw:: html
 
   <div class="section pull-left" style="padding: 5px;margin-bottom: 20px;margin-top: 10px;">
-  <p class="pull-left" style="width:100%;background:linear-gradient(to right, #F89406 45px, #fcfcfc 45px);
-    padding:10px;height:44px;">
-    <span class="pull-left indicator" style="width:24px;height:24px;background:#fff;margin-right:10px;">&nbsp;</span>
-   	<span class="pull-left" style="margin-left: 15px;">No issues have been detected for this day.</span>
-  </p>
-  <p class="pull-left" style="width:100%;background:linear-gradient(to right, #F89406 45px, #fcfcfc 45px);
-    padding: 10px;height: 44px;">
-    <span class="pull-left indicator" style="width:24px;height:24px;background:#ccc;margin-right:10px;">&nbsp;</span>
-  	<span class="pull-left" style="width: 87%;margin-left: 15px;margin-top: -12px;">We have no data for this day. This can happen if monitoring of the target website was not started/paused and hence we have no data for this day.</span>
-  </p>
-  <p class="pull-left" style="width: 100%;background: linear-gradient(to right, #F89406 45px, #fcfcfc 45px);padding: 10px;height: 44px;">
-  <span class="pull-left" style="width:12px;height:24px;background:#ec0111;">&nbsp;</span>
-  <span class="pull-left" style="width:12px;height:24px;background:#fff;margin-right:10px;">&nbsp;</span>
-  <span class="pull-left" style="width: 87%;margin-left: 15px;margin-top: -12px;">Issues were detected for this day. The severity of the issue is indicated by the length of the red bar. Hover over the cell to find the availability and incidents related to that day.</span>
-  </p>
-  <p class="pull-left" style="width: 100%;background: linear-gradient(to right, #F89406 45px, #fcfcfc 45px);padding: 10px;height: 44px;">
-  <span class="pull-left indicator" style="width:24px;height:24px;background: #ffbd62;margin-right:10px;">&nbsp;</span>
-  <span class="pull-left" style="margin-left: 15px;">This is a future day and hence we have no data for this day.</span>
-  </p>
-  <p class="pull-left" style="width: 100%;background: linear-gradient(to right, #F89406 45px, #fcfcfc 45px);padding: 10px;height: 44px;">
-  	<span class="pull-left indicator" style="width:24px;height:24px;border:2px solid #25a52e;background:#fff;margin-right: 10px;">&nbsp;</span>
-  	<span class="pull-left" style="margin-left: 15px;">The green border indicates that this is the data for today.</span></p></div>
+ <p class="pull-left" style="width:100%;padding:10px;display: flex;align-items: center;">
+    <span class="pull-left indicator" style="width:24px;height:24px;background:#fff;margin-right:10px;border:10px solid #F89406;box-sizing: content-box;">&nbsp;</span>
+  <span class="pull-left" style="width: 75%;">No issues have been detected for this day.</span>
+ </p>
+ <p class="pull-left" style="width:100%;padding: 10px;display: flex;align-items: center;">
+  <span class="pull-left indicator" style="width:24px;height:24px;background:#ccc;margin-right:10px;border:10px solid #F89406;box-sizing: content-box;">&nbsp;</span>
+  <span class="pull-left" style="width: 75%;">We have no data for this day. This can happen if monitoring of the target website was not started/paused and hence we have no data for this day.</span>
+ </p>
+ <p class="pull-left" style="width: 100%;padding: 10px;display: flex;align-items: center;">
+  <span class="pull-left" style="border:10px solid #F89406;margin-right:10px;box-sizing: content-box;">
+   <span class="pull-left" style="width:12px;height:24px;background:#ec0111;">&nbsp;</span>
+   <span class="pull-left" style="width:12px;height:24px;background:#fff;">&nbsp;</span>
+  </span>
+  <span class="pull-left" style="width: 75%;">Issues were detected for this day. The severity of the issue is indicated by the length of the red bar. Hover over the cell to find the availability and incidents related to that day.</span>
+ </p>
+ <p class="pull-left" style="width: 100%;padding: 10px;display: flex;align-items: center;">
+  <span class="pull-left indicator" style="width:24px;height:24px;background: #ffbd62;margin-right:10px;border:10px solid #F89406;box-sizing: content-box;">&nbsp;</span>
+  <span class="pull-left" style="width: 75%;">This is a future day and hence we have no data for this day.</span>
+ </p>
+ <p class="pull-left" style="width: 100%;padding: 10px;display: flex;align-items: center;">
+  <span class="pull-left indicator" style="width:24px;height:24px;background:#fff;margin-right: 10px;border:10px solid #F89406;box-sizing: content-box;">
+   <i class="pull-left" style="border:2px solid #25a52e;box-sizing: border-box;width: 100%;height: 100%;">&nbsp;</i>
+  </span>
+  <span class="pull-left" style="width: 75%;">The green border indicates that this is the data for today.</span>
+ </p></div>
 
 
 **Latency Chart**: The middle section shows the average response time of the component in milliseconds. Hover over the chart to get the response time for the specific day. 
